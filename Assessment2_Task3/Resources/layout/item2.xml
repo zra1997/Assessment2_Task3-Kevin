@@ -1,0 +1,77 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/Back2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back"
+    />
+
+    <TextView
+        android:id="@+id/ItemName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item2"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:layout_below="@+id/ItemTop2"
+        android:layout_marginTop="40dp"
+    />
+
+    <TextView
+        android:id="@+id/ItemPrice2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price:"
+        android:textSize="25dp"
+        android:layout_below="@+id/ItemName2"
+        android:layout_marginTop="10dp"
+    />
+
+    <TextView
+        android:id="@+id/ItemSeller2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seller:"
+        android:textSize="25dp"
+        android:layout_below="@+id/ItemPrice2"
+        android:layout_marginTop="10dp"
+    />
+
+    <TextView
+        android:id="@+id/ItemAddress2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:textSize="25dp"
+        android:layout_below="@+id/ItemSeller2"
+        android:layout_marginTop="10dp"
+    />
+
+    <TextView
+        android:id="@+id/ItemPhone2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone:"
+        android:textSize="25dp"
+        android:layout_below="@+id/ItemAddress2"
+        android:layout_marginTop="10dp"
+    />
+
+    <Button
+        android:id="@+id/ItemLocation2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ItemPhone2"
+        android:text="Show me the location"
+        android:textSize="25dp"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="50dp"
+    />
+
+</RelativeLayout>

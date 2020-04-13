@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+     <Button
+        android:id="@+id/Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back"
+    />
+        <TextView
+        android:id="@+id/Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User name:"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+    />
+
+    <TextView
+        android:id="@+id/Userpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User password:"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+    />
+
+    <TextView
+        android:id="@+id/Usereadress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Email Address:"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+    />
+
+    <Button
+        android:id="@+id/btnshow"
+        android:layout_width="170.0dp"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        android:textSize="26dp"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="100dp"
+      />
+
+</LinearLayout>

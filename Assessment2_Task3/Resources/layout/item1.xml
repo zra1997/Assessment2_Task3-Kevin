@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/Back1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back"
+    />
+
+    <TextView
+        android:id="@+id/ItemName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item1"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:layout_below="@+id/ItemTop1"
+        android:layout_marginTop="40dp"
+    />
+
+    <TextView
+        android:id="@+id/ItemPrice1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price:"
+        android:textSize="25dp"
+        android:layout_below="@+id/ItemName1"
+        android:layout_marginTop="10dp"
+    />
+
+    <TextView
+        android:id="@+id/ItemSeller1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seller:"
+        android:textSize="25dp"
+        android:layout_below="@+id/ItemPrice1"
+        android:layout_marginTop="10dp"
+    />
+
+    <TextView
+        android:id="@+id/ItemAddress1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:textSize="25dp"
+        android:layout_below="@+id/ItemSeller1"
+        android:layout_marginTop="10dp"
+    />
+
+    <TextView
+        android:id="@+id/ItemPhone1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone:"
+        android:textSize="25dp"
+        android:layout_below="@+id/ItemAddress1"
+        android:layout_marginTop="10dp"
+    />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ItemPhone1"
+        android:layout_marginTop="10dp"
+        android:text="I WANT IT"/>
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn1"
+        android:layout_marginTop="10dp"
+        android:text="Share ITEM"/>
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn2"
+        android:layout_marginTop="10dp"
+        android:text="SEND ME MESSAGE"/>
+
+
+</RelativeLayout>
